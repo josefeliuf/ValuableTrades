@@ -11,4 +11,4 @@
 
 ## ¿How to execute? :eyes:
 
-Para ejecutar el programa es necesario hacer ´´´bundle install´´´ y después ´´´rails s´´´. Después abre tu navegador favorito y dirígete al localhost:3000.
+Para ejecutar el programa es necesario hacer ```bundle install``` y después ```rails s```. Después abre tu navegador favorito y dirígete al localhost:3000.
