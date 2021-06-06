@@ -1,0 +1,25 @@
+<h1 class="title center">Buda Most Valuable Trades</h1>
+
+<table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth mb-5">
+    <thead>
+        <tr>
+            <th scope="col">Market</th>
+            <th scope="col">Timestamp</th>
+            <th scope="col">Amount</th>
+            <th scope="col">Price</th>
+            <th scope="col">Direction</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <% @most_valuable_trades.each do |market_id, entrie| %>
+            <tr>
+                <td><%= market_id %></td>
+                <td><%= entrie[0] %></td>
+                <td><%= entrie[1] %></td>
+                <td><%= entrie[2] %></td>
+                <td><%= entrie[3] %></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
