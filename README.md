@@ -4,7 +4,7 @@
 
 * Rails version: '5.2.6'
 
-## Gems :diamond:
+## Gems :gem:
 
 * gem "httparty"
 * gem "bulma-rails", "~> 0.9.1"
